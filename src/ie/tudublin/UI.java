@@ -26,7 +26,7 @@ public class UI extends PApplet
 		separate(1);
 		separate(92);
 	}
-
+	
 	public void setup() 
 	{
 	}
@@ -34,4 +34,18 @@ public class UI extends PApplet
 	public void draw()
 	{			
 	}
+
+	public Color findColor(int value) {
+	 for(int i = 0 ; i < colour.length; i ++)
+	 {
+		 System.out.println(colour[i] + "\t" + colour[i]);
+	 }
+
+	
+	 for(float f:colour)
+	 {
+		 System.out.println(f);
+	 }
+ }
+ 
 }
