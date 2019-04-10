@@ -8,8 +8,43 @@ import processing.data.TableRow;
 
 public class Resistor
 {
-    public void value (int value);
-    public void ones (int ones);
-    public void tens (int tens);
-    public void hundreds (int hundreds); 
+    public void value (int value)
+    {
+        this.value = value;
+    }
+    public int getValue()
+        {
+            return getValue();
+        }
+
+    public void ones (int ones) 
+    {
+        this.ones = ones;
+    }
+
+    public int getOne()
+    {
+        return getOne();
+    }
+    public void tens (int tens)
+    {
+        this.tens = tens;
+    }
+
+    public int getTens(){
+        return getTens();
+    }
+
+    public void hundreds (int hundreds)
+    {
+        this.hundreds = hundreds;
+    } 
+
+    public int getHundreds()
+    {
+        return getHundreds();
+    }
+   
+    
+    }
 }
